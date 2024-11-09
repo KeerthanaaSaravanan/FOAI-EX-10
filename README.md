@@ -1,4 +1,11 @@
-# ExpNo:10 Implementation of Classical Planning Algorithm
+<H1 ALIGN =CENTER>Implementation of Classical Planning Algorithm</H1>
+<H3>NAME: KEERTHANA S</H3>
+<H3>REGISTER NO.: 212223240070</H3>
+<H3>EX. NO.10</H3>
+<H3>DATE:</H3>
+# Aim
+To solve Implementation of Classical Planning Algorithm using python
+
 # Algorithm or Steps Involved:
 <ol>
   <li>Define the initial state</li>
@@ -44,9 +51,15 @@ print(plan)
 ['move_A_to_B', 'move_B_to_C']
 ```
 
+# Please Prepare Solution or Definition For the method find_plan(initial_state, goal_state, actions)
+<h3>You Can use any of the searching Strategies for planning and executing a sequence of actions.<br> You can also look in to the Code given in the Repository.</h3>
 
-# PROGRAM:
+# Program
+
 ```
+Name: Shanmathi
+Register Number: 212222100049
+
 def is_goal_state(current_state, goal_state):
     return current_state == goal_state
 
@@ -79,8 +92,7 @@ def find_plan(initial_state, goal_state, actions):
     return None
 def is_applicable(current_state, precondition):
     return all(current_state.get(key) == value for key, value in precondition.items())
-# Example usage
-'''
+# Example
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'B', 'B': 'Table'}
 
@@ -91,7 +103,7 @@ actions = {
 
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
-'''
+
 initial_state = {'A': 'Table', 'B': 'Table', 'C': 'Table'}
 goal_state = {'A': 'B', 'B': 'C', 'C': 'Table'}
 
@@ -103,7 +115,7 @@ actions = {
 
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
-'''
+
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'Table', 'B': 'Table'}
 
@@ -113,11 +125,12 @@ actions = {
 
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
-'''
 ```
 
-# OUTPUT:
-![image](https://github.com/user-attachments/assets/8f1ea4a4-aa43-4569-b1a1-a9f0667b3e8c)
+# Output
 
-# RESULT:
-Thus, the classical planning algorithm has been implemented successfully.
+![image](https://github.com/user-attachments/assets/4d638730-3db3-4a38-a6bb-78896a55dd83)
+
+
+# Result
+Therefore,Implementation of Classical Planning Algorithm is implemetated successfully.
